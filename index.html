@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>兎田ぺこらボタンロゴ</title>
+  <title>兎田ぺこらボタン</title>
   <link rel="stylesheet" href="ress.css">
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+
+  <meta name="description" content="当サイトは、ホロライブプロダクション所属のVtuber兎田ぺこらさんを応援する非公式ファンサイトになります。">
 
 <!-- ファビコン -->
   <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96">
@@ -17,10 +19,25 @@
   <link rel="manifest" href="./favicon/site.webmanifest">
 
 
+<!-- OGP設定 -->
+  <meta property="og:title" content="兎田ぺこらボタン">
+  <meta property="og:description" content="ホロライブ4期生・天音かなたさんを紹介・応援する非公式ファンサイトです。最新情報や活動の軌跡、おすすめ配信などを紹介しています。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shima-kon.github.io/konkanata/index.html">
+  <meta property="og:image" content="https://shima-kon.github.io/konkanata/kanataimg/amanelogog.png">
+  <meta property="og:site_name" content="天音かなた非公式ファンサイト">
+  <meta property="og:locale" content="ja_JP">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@Koncon_1135">
+  <meta name="twitter:title" content="天音かなた非公式ファンサイト">
+  <meta name="twitter:description" content="ホロライブ4期生・天音かなたさんを紹介・応援する非公式ファンサイトです。最新情報や活動の軌跡、おすすめ配信などを紹介しています。">
+  <meta name="twitter:image" content="https://shima-kon.github.io/konkanata/kanataimg/amanelogog.png">
+
 </head>
 <body>
   <header>
-    <h1>兎田ぺこらボタンロゴ</h1>
+    <h1><img class="toplogo" src="pekorabtnlogo.png" alt="兎田ぺこらボタン"></h1>
   </header>
 
   <main>
@@ -28,7 +45,7 @@
 
       <form id="searchForm" class="search-form-1">
     <label>
-        <input type="text" id="searchInput" placeholder="キーワードを入力">
+      <input type="text" id="searchInput" placeholder="キーワードを入力">
     </label>
     <button type="submit" aria-label="検索"></button>
 </form>
@@ -38,13 +55,19 @@
     <section class="block">
 
       
-      <h2>あいさつ</h2>
+      <h2>ぺこら</h2>
       
       <div class="content-box">
         <div class="button-area">
         <button class="btn" data-audio="audio1">初配信あいさつ</button>
-        <button class="btn" data-audio="audio2">テキスト</button>
-        <button class="btn" data-audio="audio3">テキストテキストテキスト</button>
+        <button class="btn" data-audio="audio2">あいさつ</button>
+        <button class="btn" data-audio="audio3">あいさつ(どどんがどんどんどん)</button>
+        <button class="btn" data-audio="audio4">小笑い</button>
+        <button class="btn" data-audio="audio8">中笑い</button>
+        <button class="btn" data-audio="audio5">思った答えと全然違うぺこ</button>
+        <button class="btn" data-audio="audio6">毎日そんなこと考えているのかね</button>
+        <button class="btn" data-audio="audio7">みんな</button>
+        <button class="btn" data-audio="audio9">ぺこぺこぺこ</button>
       </div>
 
       </div>
@@ -56,9 +79,9 @@
       
       <div class="content-box">
         <div class="button-area">
-        <button class="btn" data-audio="audio1">テキスト</button>
-        <button class="btn" data-audio="audio2">テキスト</button>
-        <button class="btn" data-audio="audio3">テキストテキストテキスト</button>
+        <button class="btn" data-audio="audio501">みんな待っててくれた？</button>
+        <button class="btn" data-audio="audio502">よしよし</button>
+        <button class="btn" data-audio="audio503">テキストテキストテキスト</button>
       </div>
 
       </div>
@@ -70,9 +93,9 @@
       
       <div class="content-box">
         <div class="button-area">
-        <button class="btn" data-audio="audio1">フライパン汚い</button>
-        <button class="btn" data-audio="audio2">テキスト</button>
-        <button class="btn" data-audio="audio3">テキストテキストテキスト</button>
+        <button class="btn" data-audio="audio801">ぺこちゃんごめん、これ…</button>
+        <button class="btn" data-audio="audio802"></button>
+        <button class="btn" data-audio="audio803">テキストテキストテキスト</button>
       </div>
 
       </div>
@@ -104,8 +127,52 @@
   </footer>
 
   <!-- ▼ 音声ファイル（仮） -->
-  <audio id="audio1" src="hatuhaisina.mp3"></audio>
+  <audio id="audio1" src="pekora_onsei/hatuhaisina.mp3"></audio>
   <audio id="audio2" src="audio2.mp3"></audio>
-  <audio id="audio3" src="audio3.mp3"></audio>
+  <audio id="audio3" src="pekora_onsei/dodonga.mp3"></audio>
+  <audio id="audio4" src="pekora_onsei/syouwarai.mp3"></audio>
+  <audio id="audio5" src="pekora_onsei/omottanoto.mp3"></audio>
+  <audio id="audio6" src="pekora_onsei/mainiti.mp3"></audio>
+  <audio id="audio7" src="pekora_onsei/minna.mp3"></audio>
+  <audio id="audio8" src="pekora_onsei/tyuuwarai.mp3"></audio>
+  <audio id="audio9" src="pekora_onsei/pekopeko.mp3"></audio>
+  <audio id="audio10" src=""></audio>
+  <audio id="audio11" src=""></audio>
+  <audio id="audio12" src=""></audio>
+  <audio id="audio13" src=""></audio>
+  <audio id="audio14" src=""></audio>
+  <audio id="audio15" src=""></audio>
+  <audio id="audio16" src=""></audio>
+  <audio id="audio17" src=""></audio>
+  <audio id="audio18" src=""></audio>
+  <audio id="audio19" src=""></audio>
+  <audio id="audio20" src=""></audio>
+  <audio id="audio21" src=""></audio>
+  <audio id="audio22" src=""></audio>
+
+  <!--ぺこらマミー-->
+  <audio id="audio501" src="mami-_onsei/minnnamatte.mp3"></audio>
+  <audio id="audio502" src="mami-_onsei/yosiyosi.mp3"></audio>
+  <audio id="audio503" src="audio3.mp3"></audio>
+  <audio id="audio504" src="audio3.mp3"></audio>
+  <audio id="audio505" src="audio3.mp3"></audio>
+  <audio id="audio506" src="audio3.mp3"></audio>
+  <audio id="audio507" src="audio3.mp3"></audio>
+
+
+
+
+  <!--のうさぎ-->
+  <audio id="audio801" src="nousagi_onsei/pekochang.mp3"></audio>
+  <audio id="audio802" src=""></audio>
+  <audio id="audio803" src="audio3.mp3"></audio>
+  <audio id="audio804" src="audio3.mp3"></audio>
+  <audio id="audio805" src="audio3.mp3"></audio>
+  <audio id="audio806" src="audio3.mp3"></audio>
+  <audio id="audio807" src="audio3.mp3"></audio>
+  <audio id="audio808" src="audio3.mp3"></audio>
+  <audio id="audio809" src="audio3.mp3"></audio>
+
+
 </body>
 </html>
